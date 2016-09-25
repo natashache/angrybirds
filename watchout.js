@@ -206,4 +206,5 @@ d3.select('.start')
         status = 'stop';
         stop();
       }
+      d3.select(this).text(status === 'start' ? 'stop' : 'start');
     });
